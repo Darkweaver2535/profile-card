@@ -12,45 +12,51 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Alvaro | Profile card component</title>
+    <title>Helen | Profile card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <link:css rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./Styles/tablet768.css"
+      media="screen and (min-width: 768px)"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Noto+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <article class="card">
+      <img src="./images/bg-pattern-card.svg" alt="" class="profile-back" />
       <div>
-        <img src="./images/bg-pattern-card.svg" alt="">
-
-      </div>
-      <img src="./images/image-victor.jpg" alt="foto de perfil de victor" class="image-profile">
-      <div class="description">
-        <div class="data">
-          <span>
-          Victor Crest  
-          </span>
-          <span>
-            26
-          </span>
+        <div class="image-profile">
+          <img src="./images/image-victor.jpg" alt="victor-profile" />
         </div>
-        <span>
-          London
-        </span>
-
-      </div>
-      <div class="stat">
-        <div><span>80K</span><span>Followers</span></div>
-        <div><span>803K</span><span>Likes</span></div>
-        <div><span>1.4K</span><span></span>Photos</div> 
-             
+        <div class="description">
+          <div class="data">
+            <span>Victor Crest</span>
+            <span>26</span>
+          </div>
+          <span>London</span>
+        </div>
+        <div class="stat">
+          <div>
+            <span>80K</span>
+            <span>Followers</span>
+          </div>
+          <div>
+            <span>803K</span>
+            <span>Likes</span>
+          </div>
+          <div>
+            <span>1.4K</span>
+            <span>Photos</span>
+          </div>
+        </div>
       </div>
     </article>
-    
   </body>
 </html>
